@@ -1,0 +1,30 @@
+# Python cache and env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Secrets
+client_secret.json
+service_account.json
+
+# Runtime / generated data
+Reports/
+chroma_db/
+temp/
+*.sqlite3
+*.bin
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
